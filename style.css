@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #0e0e0e;
+    height: 80px;
+}
+
+.container-grid {
+    /* background-color: darkgreen; */
+    
+    width: 1300px;
+    height: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 230px;
+}
+
+header nav {
+    width: 400px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav a {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+main {
+    height: calc(100vh - 80px);
+    
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(img/maos_connect.png);
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.esquerda {
+    width: 50%;
+    height: 100%;
+
+    /* background-color: darkblue; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.esquerda img {
+    width: 450px;
+}
+
+.esquerda p {
+    width: 400px;
+    margin-top: 40px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.direita {
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #181818;
+}
+
+.direita form {
+    width: 50%;
+    height: 450px;
+    padding: 60px;
+    border-radius: 30px;
+    background-color: #101010;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.direita h2 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+.label-input {
+    display: flex;
+    flex-direction: column;
+
+    /* height: 50px; */
+}
+
+.label-input label {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+.label-input input {
+    height: 30px;
+    border-radius: 7px;
+    border: none;
+    text-indent: 5px;
+
+    background-color: #202020;
+    color: white;
+}
+
+.direita button {
+    background-color: #c12d6d;
+    height: 30px;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.direita button:hover {
+    background-color: #89204e;
+}
